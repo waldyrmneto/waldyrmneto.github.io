@@ -131,9 +131,7 @@ body {
     font-family: monospace;
 }
 
-#networksArea {
-    float: right;
-}
+
 
 .footerContent {
     margin-top: 10px;
@@ -162,6 +160,10 @@ body {
 .footer a:hover {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.linksArea {
+    
 }
 
 
