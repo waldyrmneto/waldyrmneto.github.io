@@ -32,6 +32,7 @@ body {
 
 .indexMenu {
     padding-left: auto;
+    padding-right: auto;
     padding: 10px;
     text-align: center;
     background-color: #ffbf00;
@@ -53,9 +54,14 @@ body {
     border-left: transparent;
     border-right: transparent;
     border: solid 2px transparent;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
 }
 
 .indexMenu li a:hover {
    border-right: solid 2px black;
    border-left: solid 2px black;
+   color: gray;
 }
