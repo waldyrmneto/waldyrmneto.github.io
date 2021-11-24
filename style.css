@@ -13,6 +13,9 @@ body{
     list-style-type: none;
     overflow: hidden;
     background-color: #3f7fc0;
+    border-bottom: 2px solid white;
+    position: absolute;
+    width: 100%;
 }
 
 .navbar li {
@@ -38,4 +41,31 @@ body{
     color: #3f7fc0;
     background-color: white;
     transition: 500ms;
+}
+/*Fim estilização da barra de navegação*/
+
+/*Estilização barra lateral*/
+.sideBar{
+    background: #2c5986;
+    position: absolute;
+    margin-top: 65px;
+    top: 0;
+    left: 0;
+    width: 283px;
+    height: 93.4%;
+    padding-bottom: 20px 0;
+    
+}
+
+.sideBar ul {
+    margin-left: 40%;
+    list-style-type: none;
+}
+
+/*Estilização da foto de perfil*/
+.profilePic {
+    
+    width: 283px;
+    
+    
 }
