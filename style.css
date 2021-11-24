@@ -31,8 +31,31 @@ body {
 }
 
 .indexMenu {
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 0.5%;
-    list-style-type: square;
+    padding-left: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffbf00;
+    border: 2px solid black;
+}
+
+.indexMenu li {
+    position: inherit;
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    
+}
+
+
+.indexMenu li a {
+    position: inherit;
+    padding: inherit;
+    border-left: transparent;
+    border-right: transparent;
+    border: solid 2px transparent;
+}
+
+.indexMenu li a:hover {
+   border-right: solid 2px black;
+   border-left: solid 2px black;
 }
