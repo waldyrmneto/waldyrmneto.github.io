@@ -8,20 +8,31 @@ body {
 }
 
 #profile_pic {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
     position: absolute;
-    left: 40%;
-    top: 25%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 250px;
     border-radius: 50%;
+    border: 5px solid black;
 }
 
 #coverArt {
     min-height: 400px;
-    background-image: url(./images/coverpic.jpeg);
+    background: url(./images/coverpic.jpeg);
+    border-bottom: 5px solid black;
 }
 
-#name{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#name {
+    margin-top: 175px;
+    text-align: center;
+    font-family: monospace;
+    
+}
+
+.indexMenu {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 0.5%;
+    list-style-type: square;
 }
