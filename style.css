@@ -30,9 +30,16 @@ body {
     
 }
 
+#basicInfo p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
 .indexMenu {
-    padding-left: auto;
-    padding-right: auto;
     padding: 10px;
     text-align: center;
     background-color: #ffbf00;
@@ -40,7 +47,6 @@ body {
 }
 
 .indexMenu li {
-    position: inherit;
     text-align: center;
     display: inline;
     padding: 10px;
