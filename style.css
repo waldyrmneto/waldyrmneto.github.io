@@ -3,69 +3,70 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    background-color: black;
+body {
+    background-color: lightgray;
 }
 
-/*Estilização da Barra de navegação*/
-.navbar ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #3f7fc0;
-    border-bottom: 2px solid white;
-    position: absolute;
-    width: 100%;
-}
-
-.navbar li {
-    float: left;    
-}
-
-.titleName {
-    color: white;
-    background-color:#2c5986 ;
-}
-
-.navbar a {
-    font-size: 20px;
-    text-align: right;
+#profilePic {
     display: block;
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 23.5%;
+    margin-top: 1.5%;
+    border: 2px solid black;
 }
 
-.navLink:hover {
-    color: #3f7fc0;
-    background-color: white;
-    transition: 500ms;
-}
-/*Fim estilização da barra de navegação*/
-
-/*Estilização barra lateral*/
-.sideBar{
-    background: #2c5986;
-    position: absolute;
-    margin-top: 65px;
-    top: 0;
-    left: 0;
-    width: 283px;
-    height: 93.4%;
-    padding-bottom: 20px 0;
-    
+#identification h3 {
+    font-size: 30px;
 }
 
-.sideBar ul {
-    margin-left: 40%;
+#identification h4 {
+    margin-top: .5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#idText {
+    text-transform: uppercase;
+}
+
+.bioText {
+    font-family: monospace;
+    text-align: center;
+    margin-top: .5%;
+}
+
+#mainTextBlock p {
+    font-size: 13px;
+    line-height: 130%;
+}
+
+#externalLinks ul {
+    margin-top: 3%;
     list-style-type: none;
+    text-align: center;
 }
 
-/*Estilização da foto de perfil*/
-.profilePic {
-    
-    width: 283px;
-    
-    
+#externalLinks li {
+    display: inline;
+    margin: .5%;
+    padding: .5%;
+}
+
+#externalLinks a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: inherit;
+    color: #264d73 ;
+    border: 2px solid #264d73;
+    border-radius: 25%;
+}
+
+#externalLinks a:hover {
+    color: white;
+    background-color: #264d73;
+    transition: 400ms;
+
 }
