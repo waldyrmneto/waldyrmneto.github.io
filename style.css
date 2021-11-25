@@ -1,0 +1,72 @@
+/*Resetar margin e paddin padrão do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgray;
+}
+
+#profilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 23.5%;
+    margin-top: 1.5%;
+    border: 2px solid black;
+}
+
+#identification h3 {
+    font-size: 30px;
+}
+
+#identification h4 {
+    margin-top: .5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#idText {
+    text-transform: uppercase;
+}
+
+.bioText {
+    font-family: monospace;
+    text-align: center;
+    margin-top: .5%;
+}
+
+#mainTextBlock p {
+    font-size: 13px;
+    line-height: 130%;
+}
+
+#externalLinks ul {
+    margin-top: 3%;
+    list-style-type: none;
+    text-align: center;
+}
+
+#externalLinks li {
+    display: inline;
+    margin: .5%;
+    padding: .5%;
+}
+
+#externalLinks a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: inherit;
+    color: #264d73 ;
+    border: 2px solid #264d73;
+    border-radius: 25%;
+}
+
+#externalLinks a:hover {
+    color: white;
+    background-color: #264d73;
+    transition: 400ms;
+
+}
